@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+
+:root {
+  --bg:            #080E1A;
+  --surface:       #0D1626;
+  --surface-alt:   #111E33;
+  --border:        #1A2E4A;
+  --accent:        #2a78d6;
+  --accent-dim:    #0A2A4A;
+  --green:         #1baf7a;
+  --amber:         #eda100;
+  --red:           #e34948;
+  --purple:        #4a3aa7;
+  --text-primary:  #E8F0FF;
+  --text-secondary:#6B84A8;
+  --text-muted:    #3A5070;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+@keyframes spin   { to { transform: rotate(360deg); } }
+@keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+@keyframes pulse  { 0%,100%{opacity:1;transform:scale(1);} 50%{opacity:.4;transform:scale(1.6);} }
+
+.fade-in { animation: fadeIn 0.35s ease; }
