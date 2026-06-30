@@ -17,9 +17,7 @@ This project accompanies the research paper:
 
 **"FinSight AI: A Real-Time Financial Analytics Dashboard Integrating Large Language Models with NoSQL Databases for Intelligent Fraud Detection and Revenue Forecasting"**
 
-> Submitted to International Journal of Advanced Computer Science and Applications (IJACSA) · 2025
-
-This software is archived on Zenodo with a permanent DOI: [10.5281/zenodo.21081619](https://doi.org/10.5281/zenodo.21081619)
+> Submitted to International Journal of Advanced Computer Science and Applications (IJACSA) · 2026
 
 ---
 
