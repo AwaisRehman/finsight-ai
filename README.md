@@ -5,6 +5,7 @@
 ![React](https://img.shields.io/badge/React-18.2-blue.svg)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green.svg)
 ![AI](https://img.shields.io/badge/AI-Groq%20LLaMA%203.3-purple.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21081619.svg)](https://doi.org/10.5281/zenodo.21081619)
 
 > **A real-time AI-powered financial analytics dashboard** combining MongoDB, Node.js, React, and Groq's LLaMA 3.3 70B model for intelligent transaction analysis, fraud detection, and revenue forecasting.
 
@@ -16,11 +17,15 @@ This project accompanies the research paper:
 
 **"FinSight AI: A Real-Time Financial Analytics Dashboard Integrating Large Language Models with NoSQL Databases for Intelligent Fraud Detection and Revenue Forecasting"**
 
-> Submitted to International Journal of Advanced Computer Science and Applications (IJACSA) · 2026
+> Submitted to International Journal of Advanced Computer Science and Applications (IJACSA) · 2025
+
+This software is archived on Zenodo with a permanent DOI: [10.5281/zenodo.21081619](https://doi.org/10.5281/zenodo.21081619)
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Demo Access
+
+The credentials below are created automatically when you run the seed script locally (`npm run seed`) — they are not for a publicly hosted instance.
 
 | Credential | Value |
 |---|---|
@@ -111,6 +116,7 @@ finsight-full/
 │       │   └── PrivateRoute.js # Route protection
 │       └── App.js
 ├── LICENSE                     # MIT License
+├── CITATION.cff                # Citation metadata
 └── README.md
 ```
 
@@ -126,7 +132,7 @@ finsight-full/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/finsight-ai.git
+git clone https://github.com/AwaisRehman/finsight-ai.git
 cd finsight-ai
 ```
 
@@ -179,7 +185,7 @@ npm start
 http://localhost:3000
 ```
 
-Login with `awais@finsight.ai` / `password123`
+Login with `awais@finsight.ai` / `password123` (created by the seed script above)
 
 ---
 
@@ -233,9 +239,11 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👤 Author
 
-**Awais Rehman**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**Awais Ur Rehman**
+- GitHub: [@AwaisRehman](https://github.com/AwaisRehman)
 - Email: awais@finsight.ai
+
+If you use this project in academic work, please cite it — see [CITATION.cff](CITATION.cff).
 
 ---
 

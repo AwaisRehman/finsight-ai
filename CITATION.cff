@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "FinSight AI: An Intelligent Fintech Analytics Dashboard Integrating Large Language Models with NoSQL Databases"
+authors:
+  - family-names: "Ur Rehman"
+    given-names: "Awais"
+date-released: 2026-06-30
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/AwaisRehman/finsight-ai"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21081619
+    description: "Archived software release on Zenodo"
